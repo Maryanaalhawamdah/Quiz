@@ -1,0 +1,92 @@
+[
+    {
+        "tittle":"What does  HTML stand for?",
+        "answer_1":"Hyper Text Markup Language",
+        "answer_2":"High Text Markup Language.",
+        "answer_3":"Hyper Text Markdown Language. ",
+        "answer_4":"None of the above.",
+        "right_answer":"Hyper Text Markup Language"
+
+    },
+    {
+        "tittle":"Which of the following tags doesn’t require a closing tag?",
+        "answer_1":".<br>",
+        "answer_2":"<hr> ",
+        "answer_3":"both A & B",
+        "answer_4":"None of the above.",
+        "right_answer":"both A & B"
+
+    },
+    {
+        "tittle":"Which attribute is used to provide a unique name to an HTML element?",
+        "answer_1":"type ",
+        "answer_2":"class",
+        "answer_3":"id",
+        "answer_4":"value",
+        "right_answer":"id"
+
+    },
+    {
+        "tittle":"HTML files are saved by default with the extension?",
+        "answer_1":".html",
+        "answer_2":".h",
+        "answer_3":".ht",
+        "answer_4":".hl",
+        "right_answer":".html"
+
+    },
+    {
+        "tittle":"Which of the following is the correct syntax for using the HTML style attribute? ",
+        "answer_1":"<tagname style='property=value;'>",
+        "answer_2":"<tagname style='property;'>",
+        "answer_3":"<tagname style>",
+        "answer_4":"<tagname style='property:value;'>",
+        "right_answer":"<tagname style='property:value;'>"
+
+    },
+    {
+        "tittle":"Apart from <i> tag, which of the following tag is used to render a text in italics?  ",
+        "answer_1":"<strong>",
+        "answer_2":"<em>",
+        "answer_3":"<b>",
+        "answer_4":" <br>",
+        "right_answer":"<em>"
+
+    },
+    {
+        "tittle":"What is the correct syntax to write an HTML comment? ",
+        "answer_1":"<!--Comment--> ",
+        "answer_2":"//Coment",
+        "answer_3":"#Comment",
+        "answer_4":"/*Comment*/",
+        "right_answer":"<!--Comment--> "
+
+    },
+    {
+        "tittle":"Colors are defined in HTML using? ",
+        "answer_1":"RGB Values",
+        "answer_2":"HEX Values",
+        "answer_3":"RGBA Values",
+        "answer_4":"All of the above",
+        "right_answer":"All of the above"
+
+    },
+    {
+        "tittle":"Which of the following are examples of block-level elements in HTML?",
+        "answer_1":"<span>",
+        "answer_2":"<h1>",
+        "answer_3":"<b>",
+        "answer_4":"None of the above.",
+        "right_answer":"<h1>"
+
+    },
+    {
+        "tittle":"Which of the following things are necessary to create an HTML page?",
+        "answer_1":"A text editor",
+        "answer_2":"Web Browser",
+        "answer_3":"Both A and B ",
+        "answer_4":"None of the above",
+        "right_answer":"Both A and B "
+
+    }
+]
