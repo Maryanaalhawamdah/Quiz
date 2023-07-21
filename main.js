@@ -1,7 +1,7 @@
 //select  element
 let  countSpan=document.querySelector(".count span");
 let bullets=document.querySelector(".bullets");
-let bulletsSpanContainer=document.querySelector(".bullets .spannns");
+let bulletsSpanContainer=document.querySelector(".bullets .spans");
 let  quizArea=document.querySelector(".quiz-area");
 let answerArea=document.querySelector(".answers-area");
 let subbmitButton=document.querySelector(".submit-button");
@@ -14,10 +14,11 @@ let rightAnswers=0;
 let countdownInterval;
 
 function getQuestions(){
-    let myRequest=new XMLHttpRequest();
+    let myRequest = new XMLHttpRequest();
 
     myRequest.onreadystatechange= function(){
-        if(this .readyState===4&& this .status === 200){
+        if(this .readyState === 4  && this .status === 200){
+           
             let questionsObject= JSON.parse(this.responseText);
             let qCount =  questionsObject.length;
 
@@ -133,12 +134,14 @@ function addQuestionData(obj, count){
              //Add the text to label
              theLable.appendChild(theLableText);
 
+              //append all div to answers area
+              answerArea.createElement(mainDiv);
+
              //add input +lable to main div
              mainDiv.appendChild(radioInput);
              mainDiv.appendChild(theLable);
 
-             //append all div to answers area
-             answerArea.appendChild(mainDiv);
+            
 
         }
     }
