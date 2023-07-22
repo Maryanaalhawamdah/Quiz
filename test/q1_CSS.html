@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="questio1" action="">
+        <h2>The full form of CSS is:</h2>
+        <input type="radio" id="answer1" value="1" name="Q1">Color and Style Sheets   <br>
+        <input type="radio" id="answer2" value="2" name="Q1">Coloured Special Sheets   <br>
+        <input type="radio" id="answer3" value="3" name="Q1">.Cascading Style Sheets  <br>
+        <input type="radio" id="answer4" value="4" name="Q1">None of the above<br>
+        <button id="nextBtnId" type="button" >Next..</button>
+    </form>
+
+    <div>Quiz will closes in <span id="time">05:00</span> minutes!</div>
+</div>
+    <script src="./q1_CSS.js"></script>
+</body>
+<script>
+    function startTimer(duration, display) {
+     var timer = duration, minutes, seconds;
+     setInterval(function () {
+         minutes = parseInt(timer / 60, 10);
+         seconds = parseInt(timer % 60, 10);
+ 
+         minutes = minutes < 10 ? "0" + minutes : minutes;
+         seconds = seconds < 10 ? "0" + seconds : seconds;
+ 
+         display.textContent = minutes + ":" + seconds;
+ 
+         if (--timer < 0) {
+             timer = duration;
+         }
+     }, 1000);
+ }
+ 
+ window.onload = function () {
+     var fiveMinutes = 60 * 5,
+         display = document.querySelector('#time');
+     startTimer(fiveMinutes, display);
+ };
+ </script>
+</html>
