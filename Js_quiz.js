@@ -621,13 +621,16 @@ function startTimer(duration, display) {
             timer = duration;
         }
         else{
-            
+           
         }
     }, 1000);
 }
 
 window.onload = function () {
-    var fiveMinutes = 60 * 5,
+    var fiveMinutes = 60 * 1,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
-};
+}
+setTimeout= function(end){
+   alert("end")
+}

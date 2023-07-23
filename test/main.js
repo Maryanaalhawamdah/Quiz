@@ -209,7 +209,7 @@ function checkAnswer(rAnswer,count){
 
                 if (--duration <0 ){
                     clearInterval(countdownInterval);
-                    subbmitButton.click();
+                   
                 }
             } , 1000);
         }

@@ -5,36 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #question1{
+            font-size: 150%;
+        }
         #question2{
             display: none;
+            font-size: 150%;
+
         }
         #question3{
             display: none;
+            font-size: 150%;
         }
         #question4{
             display: none;
+            font-size: 150%;
         }
         #question5{
             display: none;
+            font-size: 150%;
         }
         #question6{
             display: none;
+            font-size: 150%;
         }
         #question7{
             display: none;
+            font-size: 150%;
         }
         #question8{
             display: none;
+            font-size: 150%;
         }
         #question9{
             display: none;
+            font-size: 150%;
         }
         #question10{
             display: none;
+            font-size: 150%;
         }
+        #div-right{
+            width:40%;
+            
+        }
+        
+        #div-img{
+            display: flex;
+            justify-content: center;
+            width:100%;
+            height:150px;
+            margin-top: 5%;
+        }
+        .timer-img-div{
+            width:40%;
+        }
+        .timer-div{
+        
+        }
+        #time{
+            width:50%;
+            padding-top:30%;
+           
+            height:150px;
+            font-size:40px;
+        }
+        .div-cotainer{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-top: 3%;
+        }
+        #div-img2{
+            width: 30%;
+            padding-left: 10%;
+        }
+        button{
+            width: 100%;
+            font-size: 80%;
+           margin-top: 5%;
+           padding: 1%;
+           border-radius: 25px;
+          background-color: rgb(251, 238, 221);
+           /* margin-left: 10%; */
+        }
+        .animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #216b7b, #ffffff , rgb(194, 210, 255));
+    background-size: 400% 400%;
+    animation: animateBackground 10s ease infinite;
+  }
+  .welcomeP{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  @keyframes animateBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ 
     </style>
 </head>
 <body>
+    <img src="./blob__1_-removebg-preview.png" width="5%">
+    <div class="animated-background"></div>
+    <div class="div-cotainer">
+        <div  id="div-right">
     <form id="question1" action="" >
         <h2>The full form of CSS is:</h2>
         <input type="radio" id="answer11" value="1" name="Q1">Color and Style Sheets<br>
@@ -69,7 +157,7 @@
     </form>
     <form id="question5" action="" >
         <h2>How can we write comments in CSS?</h2>
-        <input type="radio" id="answer51" value="1" name="Q1"><!--Comment--><br>
+        <input type="radio" id="answer51" value="1" name="Q1">&lt;/!--Comment--&gt;<br>
         <input type="radio" id="answer52" value="2" name="Q1">//Coment<br>
         <input type="radio" id="answer53" value="3" name="Q1">#Comment<br>
         <input type="radio" id="answer54" value="4" name="Q1">/*Comment*/<br>
@@ -116,7 +204,22 @@
         <button id="nextBtnId10" type="button" >Finish..</button>
     </form>
 
-    <div style="border: 2PX  double  rgb(92, 92, 176);border-radius: 90%;width: 100PX;text-align: center;padding: 20PX;"> <span id="time">05:00</span> </div>
+    <div id="div-img"> 
+        <div  class="timer-img-div">
+        <img  src="./timer-clipart-34-removebg-preview.png" width="45%" height="150px">
+        </div>
+        <div class="timer-div">
+        <p id="time">
+            01:00
+        </p>
+        </div>
+    </div>
+</div>
+
+    <div id="div-img2">
+        <img  id=""src="./blob__8_-removebg-preview.png"width="100%"  height="100%">
+      </div>
+    </div>
     <script src="css_quiz.js"></script>
 </body>
 </html>

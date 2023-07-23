@@ -4,37 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #question2{
-            display: none;
-        }
-        #question3{
-            display: none;
-        }
-        #question4{
-            display: none;
-        }
-        #question5{
-            display: none;
-        }
-        #question6{
-            display: none;
-        }
-        #question7{
-            display: none;
-        }
-        #question8{
-            display: none;
-        }
-        #question9{
-            display: none;
-        }
-        #question10{
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="Js_quiz.css">
 </head>
 <body>
+    <img src="./blob__1_-removebg-preview.png" width="8%">
+    <div class="animated-background"></div>
+    <div class="div-cotainer">
+    <div  id="div-right">
     <form id="question1" action="" >
         <h2>Javascript is an _______ language?</h2>
         <input type="radio" id="answer11" value="1" name="Q1">Procedural<br>
@@ -122,8 +98,23 @@
         <input type="radio" id="answer104" value="4" name="Q1">None of the above<br>
         <button id="nextBtnId10" type="button" >Finish..</button>
     </form>
+       
+    <div id="div-img"> 
+        <div  class="timer-img-div">
+        <img  src="./timer-clipart-34-removebg-preview.png"  id="timer-img-id" >
+        </div>
+        <div class="timer-div">
+        <p id="time">
+            01:00
+        </p>
+        </div>
+    </div>
+</div>
 
-    <div style="border: 2PX  double  rgb(92, 92, 176);border-radius: 90%;width: 100PX;text-align: center;padding: 20PX;"> <span id="time">05:00</span> </div>
+    <div id="div-img2">
+        <img  src="./blob__8_-removebg-preview.png"  height="100%">
+      </div>
+    </div>
     <script src="Js_quiz.js"></script>
 </body>
 </html>

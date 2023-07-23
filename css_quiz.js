@@ -12,7 +12,7 @@ let flag1=0;
 answer11.addEventListener("click",function(){
     if(answer11.checked==true){
         console.log("1 checked");
-        userAnswer[0]="Procedural";
+        userAnswer[0]="Color and Style Sheets";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[0]=(Number(answer11.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -25,7 +25,7 @@ answer12.addEventListener("click",function(){
     if(answer12.checked===true){
         console.log("2 checked");
 
-        userAnswer[0]="Object-Oriented";
+        userAnswer[0]="Coloured Special Sheets";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[0]=(Number(answer12.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -38,7 +38,7 @@ answer13.addEventListener("click",function(){
     if(answer13.checked===true){
         console.log("3 checked");
 
-        userAnswer[0]="Object-Based";
+        userAnswer[0]="Cascading Style Sheets  ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[0]=(Number(answer13.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -51,7 +51,7 @@ answer14.addEventListener("click",function(){
     if(answer14.checked===true){
         console.log("4 checked");
 
-        userAnswer[0]="Mockup";
+        userAnswer[0]="None of the above";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[0]=(Number(answer14.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -62,7 +62,6 @@ answer14.addEventListener("click",function(){
 })
 nextBtn1.addEventListener("click",function(){
     if(flag1==1){
-        // window.location.href="./q2_html.html";
 
         document.getElementById("question1").style.display="none";
         document.getElementById("question2").style.display="block";
@@ -80,7 +79,7 @@ let flag2=0;
 answer21.addEventListener("click",function(){
     if(answer21.checked==true){
         // console.log("1 checked");
-        userAnswer[1]="var";
+        userAnswer[1]="1";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         // console.log(userAnswer);
         userAnswerVlaue[1]=(Number(answer21.value));
@@ -95,7 +94,7 @@ answer21.addEventListener("click",function(){
 })
 answer22.addEventListener("click",function(){
     if(answer22.checked===true){
-        userAnswer[1]="string";
+        userAnswer[1]="2";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[1]=(Number(answer22.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -106,7 +105,7 @@ answer22.addEventListener("click",function(){
 })
 answer23.addEventListener("click",function(){
     if(answer23.checked===true){
-        userAnswer[1]="let";
+        userAnswer[1]="3";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[1]=(Number(answer23.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -117,7 +116,7 @@ answer23.addEventListener("click",function(){
 })
 answer24.addEventListener("click",function(){
     if(answer24.checked===true){
-        userAnswer[1]="Number";
+        userAnswer[1]="4";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[1]=(Number(answer24.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -143,7 +142,7 @@ let nextBtn3=document.getElementById("nextBtnId3");
 let flag3=0;
 answer31.addEventListener("click",function(){
     if(answer31.checked==true){
-        userAnswer[2]="document.write()";
+        userAnswer[2]="Inline";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[2]=(Number(answer31.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -154,7 +153,7 @@ answer31.addEventListener("click",function(){
 })
 answer32.addEventListener("click",function(){
     if(answer32.checked===true){
-        userAnswer[2]="console.log()";
+        userAnswer[2]="External";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[2]=(Number(answer32.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -165,7 +164,7 @@ answer32.addEventListener("click",function(){
 })
 answer33.addEventListener("click",function(){
     if(answer33.checked===true){
-        userAnswer[2]="window.alert()";
+        userAnswer[2]="Internal";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[2]=(Number(answer33.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -176,7 +175,7 @@ answer33.addEventListener("click",function(){
 })
 answer34.addEventListener("click",function(){
     if(answer34.checked===true){
-        userAnswer[2]="All of the above";
+        userAnswer[2]="None of the above";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[2]=(Number(answer34.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -202,7 +201,7 @@ let nextBtn4=document.getElementById("nextBtnId4");
 let flag4=0;
 answer41.addEventListener("click",function(){
     if(answer41.checked==true){
-        userAnswer[3]="Compilation Error";
+        userAnswer[3]=" . ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[3]=(Number(answer41.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -213,7 +212,7 @@ answer41.addEventListener("click",function(){
 })
 answer42.addEventListener("click",function(){
     if(answer42.checked===true){
-        userAnswer[3]="14";
+        userAnswer[3]="  #  ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[3]=(Number(answer42.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -224,7 +223,7 @@ answer42.addEventListener("click",function(){
 })
 answer43.addEventListener("click",function(){
     if(answer43.checked===true){
-        userAnswer[3]="Runtime Error";
+        userAnswer[3]="  ^   ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[3]=(Number(answer43.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -235,7 +234,7 @@ answer43.addEventListener("click",function(){
 })
 answer44.addEventListener("click",function(){
     if(answer44.checked===true){
-        userAnswer[3]="59";
+        userAnswer[3]="  [ ]  ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[3]=(Number(answer44.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -261,7 +260,7 @@ let nextBtn5=document.getElementById("nextBtnId5");
 let flag5=0;
 answer51.addEventListener("click",function(){
     if(answer51.checked==true){
-        userAnswer[4]="al";
+        userAnswer[4]="&lt;/!--Comment--&gt;";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[4]=(Number(answer51.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -272,7 +271,7 @@ answer51.addEventListener("click",function(){
 })
 answer52.addEventListener("click",function(){
     if(answer52.checked===true){
-        userAnswer[4]="ale";
+        userAnswer[4]="//Coment    ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[4]=(Number(answer52.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -283,7 +282,7 @@ answer52.addEventListener("click",function(){
 })
 answer53.addEventListener("click",function(){
     if(answer53.checked===true){
-        userAnswer[4]="cal";
+        userAnswer[4]="#Comment    ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[4]=(Number(answer53.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -294,7 +293,7 @@ answer53.addEventListener("click",function(){
 })
 answer54.addEventListener("click",function(){
     if(answer54.checked===true){
-        userAnswer[4]="caler";
+        userAnswer[4]=" /*Comment*/";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[4]=(Number(answer54.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -320,7 +319,7 @@ let nextBtn6=document.getElementById("nextBtnId6");
 let flag6=0;
 answer61.addEventListener("click",function(){
     if(answer61.checked==true){
-        userAnswer[5]="Both the datatype and the result of the expression are compared";
+        userAnswer[5]="Inherits the value of the parent element";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[5]=(Number(answer61.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -331,7 +330,7 @@ answer61.addEventListener("click",function(){
 })
 answer62.addEventListener("click",function(){
     if(answer62.checked===true){
-        userAnswer[5]="Only the datatype of the expression is compared";
+        userAnswer[5]="Invalid property name";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[5]=(Number(answer62.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -342,7 +341,7 @@ answer62.addEventListener("click",function(){
 })
 answer63.addEventListener("click",function(){
     if(answer63.checked===true){
-        userAnswer[5]="Only the value of the expression is compared";
+        userAnswer[5]="Changes the value of the parent element's property";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[5]=(Number(answer63.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -379,7 +378,7 @@ let nextBtn7=document.getElementById("nextBtnId7");
 let flag7=0;
 answer71.addEventListener("click",function(){
     if(answer71.checked==true){
-        userAnswer[6]="parse()";
+        userAnswer[6]="Border";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[6]=(Number(answer71.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -390,7 +389,7 @@ answer71.addEventListener("click",function(){
 })
 answer72.addEventListener("click",function(){
     if(answer72.checked===true){
-        userAnswer[6]="convert()";
+        userAnswer[6]="style";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[6]=(Number(answer72.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -401,7 +400,7 @@ answer72.addEventListener("click",function(){
 })
 answer73.addEventListener("click",function(){
     if(answer73.checked===true){
-        userAnswer[6]="stringify()";
+        userAnswer[6]="images";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[6]=(Number(answer73.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -412,7 +411,7 @@ answer73.addEventListener("click",function(){
 })
 answer74.addEventListener("click",function(){
     if(answer74.checked===true){
-        userAnswer[6]="insert()";
+        userAnswer[6]="overflow";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[6]=(Number(answer74.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -438,7 +437,7 @@ let nextBtn8=document.getElementById("nextBtnId8");
 let flag8=0;
 answer81.addEventListener("click",function(){
     if(answer81.checked==true){
-        userAnswer[7]="clearTimer";
+        userAnswer[7]=" list   ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[7]=(Number(answer81.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -449,7 +448,7 @@ answer81.addEventListener("click",function(){
 })
 answer82.addEventListener("click",function(){
     if(answer82.checked===true){
-        userAnswer[7]="clearInterval";
+        userAnswer[7]="list-style-type   ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[7]=(Number(answer82.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -460,7 +459,7 @@ answer82.addEventListener("click",function(){
 })
 answer83.addEventListener("click",function(){
     if(answer83.checked===true){
-        userAnswer[7]="ontervalOver";
+        userAnswer[7]="ul";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[7]=(Number(answer83.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -471,7 +470,7 @@ answer83.addEventListener("click",function(){
 })
 answer84.addEventListener("click",function(){
     if(answer84.checked===true){
-        userAnswer[7]="None of the above";
+        userAnswer[7]="ol";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[7]=(Number(answer84.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -498,7 +497,7 @@ let nextBtn9=document.getElementById("nextBtnId9");
 let flag9=0;
 answer91.addEventListener("click",function(){
     if(answer91.checked==true){
-        userAnswer[8]="var";
+        userAnswer[8]="text-alignment   ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[8]=(Number(answer91.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -509,7 +508,7 @@ answer91.addEventListener("click",function(){
 })
 answer92.addEventListener("click",function(){
     if(answer92.checked===true){
-        userAnswer[8]="let";
+        userAnswer[8]="text";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[8]=(Number(answer92.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -520,7 +519,7 @@ answer92.addEventListener("click",function(){
 })
 answer93.addEventListener("click",function(){
     if(answer93.checked===true){
-        userAnswer[8]="constant";
+        userAnswer[8]=" text-position   ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[8]=(Number(answer93.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -531,7 +530,7 @@ answer93.addEventListener("click",function(){
 })
 answer94.addEventListener("click",function(){
     if(answer94.checked===true){
-        userAnswer[8]="const";
+        userAnswer[8]="text-align";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[8]=(Number(answer94.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -558,7 +557,7 @@ let nextBtn10=document.getElementById("nextBtnId10");
 let flag10=0;
 answer101.addEventListener("click",function(){
     if(answer101.checked==true){
-        userAnswer[9]="innerHTML";
+        userAnswer[9]="Top, Left, Bottom, Right    ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[9]=(Number(answer101.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -569,7 +568,7 @@ answer101.addEventListener("click",function(){
 })
 answer102.addEventListener("click",function(){
     if(answer102.checked===true){
-        userAnswer[9]="getElementByClassName";
+        userAnswer[9]="Right, Left, Top, Bottom  ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[9]=(Number(answer102.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -580,7 +579,7 @@ answer102.addEventListener("click",function(){
 })
 answer103.addEventListener("click",function(){
     if(answer103.checked===true){
-        userAnswer[9]="attribute";
+        userAnswer[9]="Top, Right, Bottom, Left   ";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[9]=(Number(answer103.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -591,7 +590,7 @@ answer103.addEventListener("click",function(){
 })
 answer104.addEventListener("click",function(){
     if(answer104.checked===true){
-        userAnswer[9]="None of the above";
+        userAnswer[9]="Top, Bottom, Right, Left";
         localStorage.setItem("userAnswerCss",JSON.stringify(userAnswer));
         userAnswerVlaue[9]=(Number(answer104.value));
         localStorage.setItem("userAnswerValueCss",JSON.stringify(userAnswerVlaue));
@@ -620,14 +619,15 @@ function startTimer(duration, display) {
         if (--timer < 0) {
             timer = duration;
         }
-        else{
-            
-        }
+        else if(timer === 0) {
+            stopInterval()
+          }
     }, 1000);
+   
 }
 
 window.onload = function () {
     var fiveMinutes = 60 * 5,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
-};
+}

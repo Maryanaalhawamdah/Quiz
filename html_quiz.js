@@ -391,7 +391,7 @@ answer71.addEventListener("click",function(){
 })
 answer72.addEventListener("click",function(){
     if(answer72.checked===true){
-        userAnswer[6]="//Coment";
+        userAnswer[6]="//Comment";
         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
         userAnswerVlaue[6]=(Number(answer72.value));
         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
@@ -431,182 +431,182 @@ nextBtn7.addEventListener("click",function(){
 
 
 //question 8..............
-let answer81=document.getElementById("answer81");
-let answer82=document.getElementById("answer82");
-let answer83=document.getElementById("answer83");
-let answer84=document.getElementById("answer84");
-let nextBtn8=document.getElementById("nextBtnId8");
-let flag8=0;
+ let answer81=document.getElementById("answer81");
+ let answer82=document.getElementById("answer82");
+ let answer83=document.getElementById("answer83");
+ let answer84=document.getElementById("answer84");
+ let nextBtn8=document.getElementById("nextBtnId8");
+ let flag8=0;
 answer81.addEventListener("click",function(){
-    if(answer81.checked==true){
-        userAnswer[7]="RGB Values";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[7]=(Number(answer81.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+     if(answer81.checked==true){
+         userAnswer[7]="RGB Values";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[7]=(Number(answer81.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
         isAnswerToF[7]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag8=1;
-    }
-})
-answer82.addEventListener("click",function(){
-    if(answer82.checked===true){
-        userAnswer[7]="HEX Values";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[7]=(Number(answer82.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[7]=true;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag8=1;
-    }
-})
-answer83.addEventListener("click",function(){
-    if(answer83.checked===true){
-        userAnswer[7]="RGBA Values";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[7]=(Number(answer83.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[7]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag8=1;
-    }
-})
-answer84.addEventListener("click",function(){
-    if(answer84.checked===true){
-        userAnswer[7]="All of the above";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[7]=(Number(answer84.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[7]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag8=1;
-    }
-})
-nextBtn8.addEventListener("click",function(){
-    if(flag8==1){
-        document.getElementById("question8").style.display="none";
-        document.getElementById("question9").style.display="block";
-    }
-})
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag8=1;
+     }
+ })
+ answer82.addEventListener("click",function(){
+     if(answer82.checked===true){
+         userAnswer[7]="HEX Values";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[7]=(Number(answer82.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[7]=true;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag8=1;
+     }
+ })
+ answer83.addEventListener("click",function(){
+     if(answer83.checked===true){
+         userAnswer[7]="RGBA Values";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[7]=(Number(answer83.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[7]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag8=1;
+     }
+ })
+ answer84.addEventListener("click",function(){
+     if(answer84.checked===true){
+         userAnswer[7]="All of the above";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[7]=(Number(answer84.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[7]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag8=1;
+     }
+ })
+ nextBtn8.addEventListener("click",function(){
+     if(flag8==1){
+         document.getElementById("question8").style.display="none";
+         document.getElementById("question9").style.display="block";
+     }
+ })
 
 
-//question 9..........
+// //question 9..........
 
-let answer91=document.getElementById("answer91");
-let answer92=document.getElementById("answer92");
-let answer93=document.getElementById("answer93");
-let answer94=document.getElementById("answer94");
-let nextBtn9=document.getElementById("nextBtnId9");
-let flag9=0;
-answer91.addEventListener("click",function(){
-    if(answer91.checked==true){
-        userAnswer[8]="&lt;/span&gt;";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[8]=(Number(answer91.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[8]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag9=1;
-    }
-})
-answer92.addEventListener("click",function(){
-    if(answer92.checked===true){
-        userAnswer[8]="&lt;/h1&gt;";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[8]=(Number(answer92.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[8]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag9=1;
-    }
-})
-answer93.addEventListener("click",function(){
-    if(answer93.checked===true){
-        userAnswer[8]="&lt;/b&gt;";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[8]=(Number(answer93.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[8]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag9=1;
-    }
-})
-answer94.addEventListener("click",function(){
-    if(answer94.checked===true){
-        userAnswer[8]="None of the above.";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[8]=(Number(answer94.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[8]=true;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag9=1;
-    }
-})
-nextBtn9.addEventListener("click",function(){
-    if(flag9==1){
-        document.getElementById("question9").style.display="none";
-        document.getElementById("question10").style.display="block";
-    }
-})
+ let answer91=document.getElementById("answer91");
+ let answer92=document.getElementById("answer92");
+ let answer93=document.getElementById("answer93");
+ let answer94=document.getElementById("answer94");
+ let nextBtn9=document.getElementById("nextBtnId9");
+ let flag9=0;
+ answer91.addEventListener("click",function(){
+     if(answer91.checked==true){
+         userAnswer[8]="&lt;/span&gt;";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[8]=(Number(answer91.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[8]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag9=1;
+     }
+ })
+ answer92.addEventListener("click",function(){
+     if(answer92.checked===true){
+         userAnswer[8]="&lt;/h1&gt;";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[8]=(Number(answer92.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[8]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag9=1;
+     }
+ })
+ answer93.addEventListener("click",function(){
+     if(answer93.checked===true){
+         userAnswer[8]="&lt;/b&gt;";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[8]=(Number(answer93.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[8]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag9=1;
+     }
+ })
+ answer94.addEventListener("click",function(){
+     if(answer94.checked===true){
+         userAnswer[8]="None of the above.";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[8]=(Number(answer94.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[8]=true;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag9=1;
+     }
+ })
+ nextBtn9.addEventListener("click",function(){
+     if(flag9==1){
+         document.getElementById("question9").style.display="none";
+         document.getElementById("question10").style.display="block";
+     }
+ })
 
 
 
-//question 10................
-let answer101=document.getElementById("answer101");
-let answer102=document.getElementById("answer102");
-let answer103=document.getElementById("answer103");
-let answer104=document.getElementById("answer104");
-let nextBtn10=document.getElementById("nextBtnId10");
-let flag10=0;
-answer101.addEventListener("click",function(){
-    if(answer101.checked==true){
-        userAnswer[9]="A text editor";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[9]=(Number(answer101.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[9]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag10=1;
-    }
-})
-answer102.addEventListener("click",function(){
-    if(answer102.checked===true){
-        userAnswer[9]="Web Browser";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[9]=(Number(answer102.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[9]=true;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag10=1;
-    }
-})
-answer103.addEventListener("click",function(){
-    if(answer103.checked===true){
-        userAnswer[9]="Both A and B";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
-        userAnswerVlaue[9]=(Number(answer103.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[9]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag10=1;
-    }
-})
-answer104.addEventListener("click",function(){
-    if(answer104.checked===true){
-        userAnswer[9]="None of the above";
-        localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+// //question 10................
+ let answer101=document.getElementById("answer101");
+ let answer102=document.getElementById("answer102");
+ let answer103=document.getElementById("answer103");
+ let answer104=document.getElementById("answer104");
+ let nextBtn10=document.getElementById("nextBtnId10");
+ let flag10=0;
+ answer101.addEventListener("click",function(){
+     if(answer101.checked==true){
+         userAnswer[9]="A text editor";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[9]=(Number(answer101.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[9]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag10=1;
+     }
+ })
+ answer102.addEventListener("click",function(){
+     if(answer102.checked===true){
+         userAnswer[9]="Web Browser";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[9]=(Number(answer102.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[9]=true;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag10=1;
+     }
+ })
+ answer103.addEventListener("click",function(){
+     if(answer103.checked===true){
+         userAnswer[9]="Both A and B";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
+         userAnswerVlaue[9]=(Number(answer103.value));
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[9]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag10=1;
+     }
+ })
+ answer104.addEventListener("click",function(){
+     if(answer104.checked===true){
+         userAnswer[9]="None of the above";
+         localStorage.setItem("userAnswerHtml",JSON.stringify(userAnswer));
         userAnswerVlaue[9]=(Number(answer104.value));
-        localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
-        isAnswerToF[9]=false;
-        localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
-        flag10=1;
-    }
-})
-nextBtn10.addEventListener("click",function(){
+         localStorage.setItem("userAnswerValueHtml",JSON.stringify(userAnswerVlaue));
+         isAnswerToF[9]=false;
+         localStorage.setItem("isAnswerToFHtml",JSON.stringify(isAnswerToF));
+         flag10=1;
+     }
+ })
+ nextBtn10.addEventListener("click",function(){
     if(flag10==1){
-        // document.getElementById("question10").style.display="none";
-        // document.getElementById("question10").style.display="block";
-    }
-})
+         // document.getElementById("question10").style.display="none";
+         // document.getElementById("question10").style.display="block";
+     }
+ })
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
     setInterval(function () {
